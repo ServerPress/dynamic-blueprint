@@ -1,6 +1,7 @@
 <?php
 /**
  * Dynamic Blueprint
+ * Version: 1.1.0
  */
 
 /** Download the latest version of WordPress*/
@@ -12,23 +13,35 @@ ds_cli_exec( "wp core install --url=$siteName --title='Dynamic Blueprint' --admi
 //** Change the tagline
 ds_cli_exec( "wp option update blogdescription 'The sites tagline'" );
 
+//** Don't e-mail me when anyone posts a comment.
+ds_cli_exec( "wp option update default_comment_status 0" );
+
+//** Don't e-mail me when a comment is held for moderation.
+ds_cli_exec( "wp option update moderation_notify 0" );
+
+//** Disallow comments (can be overridden with individual posts)
+ds_cli_exec( "wp option update default_comment_status 'closed'" );
+
 //** Change Permalink structure
-ds_cli_exec( "wp rewrite structure '/%postname%' --quiet" );
+ds_cli_exec( "wp rewrite structure '/%postname%/'" );
 
 //** Discourage search engines from indexing this site
 ds_cli_exec( "wp option update blog_public 'on'" );
 
-/** Download plugin from repository, unzip Image Widget, activate */
-ds_cli_exec( "wp plugin install image-widget" );
-ds_cli_exec( "wp plugin activate image-widget" );
+/** Download plugin from repository, unzip WPSiteSync for Content, activate */
+ds_cli_exec( "wp plugin install wpsitesynccontent" );
+ds_cli_exec( "wp plugin activate wpsitesynccontent" );
+
+//** Download & Activate Theme from WordPress repository
+ds_cli_exec( "wp theme install astra --activate" );
 
 //** Download & Activate Theme from Git
 ds_cli_exec( "git clone https://github.com/Fruitfulcode/Fruitful.git wp-content/themes/fruitful/");
-ds_cli_exec( "wp theme activate fruitful" );
+//ds_cli_exec( "wp theme activate fruitful" );
 
 //** Download & Activate Plugin from Git
-ds_cli_exec( "git clone https://github.com/ServerPress/wpsitesync.git wp-content/plugins/wpsitesync/" );
-ds_cli_exec( "wp plugin activate wpsitesync" );
+//ds_cli_exec( "git clone https://github.com/Yoast/wordpress-seo.git wp-content/plugins/wordpress-seo/" );
+//ds_cli_exec( "wp plugin activate wordpress-seo" );
 
 //** Download & Activate Plugin from a private Git repo
 //ds_cli_exec( "git clone https://{username}:{password}@github.com/ServerPress/sync.git wp-content/plugins/wpsitesync/" );
@@ -47,11 +60,11 @@ ds_cli_exec( "wp plugin activate wpsitesync" );
 //ds_cli_exec( "cp c:/My_Premium_Themes/bb-theme.zip ./; wp theme install bb-theme.zip; rm bb-theme.zip" );
 
 //** Create child theme
-ds_cli_exec( "wp scaffold child-theme bb-child --parent_theme=bb-theme --activate" );
+ds_cli_exec( "wp scaffold child-theme astra-child --parent_theme=astra --activate" );
 
-//** Remove Default Themes (Except twentyseventeen)
-ds_cli_exec( "wp theme delete twentyfifteen" );
-ds_cli_exec( "wp theme delete twentysixteen" );
+//** Remove Default Themes (Except twentytwenty for debugging)
+ds_cli_exec( "wp theme delete twentynineteen" );
+ds_cli_exec( "wp theme delete twentyseventeen" );
 
 //** Remove Plugins
 ds_cli_exec( "wp plugin delete akismet" );
@@ -62,13 +75,17 @@ ds_cli_exec( "wp post delete 1 --force" ); // Hello World!
 ds_cli_exec( "wp post delete 2 --force" ); // Sample Page
 
 //** Make a new page for the homepage and blog page
-ds_cli_exec( "wp post create --post_type=page --post_title='Home' --post_status='publish'" );
-ds_cli_exec( "wp post create --post_type=page --post_title='News' --post_status='publish'" );
+ds_cli_exec( "wp post create --post_type=page --post_title='Home' --post_status='publish'" ); // Home page
+ds_cli_exec( "wp post create --post_type=page --post_title='News' --post_status='publish'" ); // Blog page 
+ds_cli_exec( "wp post create --post_type=page --post_title='Contact' --post_status='publish' --post_content='This is my Contact Page'" ); //Contact page
 
-//** Make those two pages the default for Home and Blog
+# Create post with content from given file
+ds_cli_exec( "wp post create ./about-page-content.txt --post_type=page --post_title='About' --post_status='publish'" ); //About page 
+
+//** Make the created pages the default for Home and Blog
 ds_cli_exec( "wp option update show_on_front 'page'" );
-ds_cli_exec( "wp option update page_on_front '3'" );
-ds_cli_exec( "wp option update page_for_posts '4'" );
+ds_cli_exec( "wp option update page_on_front '4'" );
+ds_cli_exec( "wp option update page_for_posts '5'" );
 
 //** Delete First Comment
 ds_cli_exec( "wp comment delete 1" );
@@ -82,8 +99,10 @@ ds_cli_exec( "wp option update timezone_string 'America/Los_Angeles'" );
 //** create the main menu and assign it to the primary menu slot
 ds_cli_exec( "wp menu create 'Main Menu'" );
 ds_cli_exec( "wp menu location assign main-menu primary" );
-ds_cli_exec( "wp menu item add-post main-menu 3 --title='Home'" );
-ds_cli_exec( "wp menu item add-post main-menu 4 --title='News'" );
+ds_cli_exec( "wp menu item add-post main-menu 4 --title='Home'" );
+ds_cli_exec( "wp menu item add-post main-menu 5 --title='News'" );
+ds_cli_exec( "wp menu item add-post main-menu 6 --title='Contact'" );
+ds_cli_exec( "wp menu item add-post main-menu 7 --title='About'" );
 
 //** Create a local Git Repo
 ds_cli_exec( "git init");
@@ -123,10 +142,19 @@ ds_cli_exec( "git push -u origin master" );
 //	ds_cli_exec( "mkdir ./media" );
 //	ds_cli_exec( "wget https://jawordpressorg.github.io/wapuu/wapuu-original/wapuu-original.svg -O ./media/wapuu.svg" );
 
+//** Add a Editor User
+ds_cli_exec( "wp user create bob bob@example.com --role=editor" );
+
+//** Import dummy content for posts / WordPress Imported plugin is required
+ds_cli_exec( "wp plugin install wordpress-importer --activate");
+ds_cli_exec( "wp import ./wordpress-wxr-example.xml --authors=create");
+
 //** Check if index.php unpacked okay
 if ( is_file( "index.php" ) ) {
 
 	//** Cleanup the empty folder, download, and this script.
 	ds_cli_exec( "rm blueprint.php" );	
 	ds_cli_exec( "rm index.htm" );
+	ds_cli_exec( "rm about-page-content.txt" );
+	ds_cli_exec( "rm wordpress-wxr-example.xml" );
 }
