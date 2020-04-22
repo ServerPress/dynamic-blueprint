@@ -40,8 +40,8 @@ ds_cli_exec( "git clone https://github.com/Fruitfulcode/Fruitful.git wp-content/
 //ds_cli_exec( "wp theme activate fruitful" );
 
 //** Download & Activate Plugin from Git
-//ds_cli_exec( "git clone https://github.com/Yoast/wordpress-seo.git wp-content/plugins/wordpress-seo/" );
-//ds_cli_exec( "wp plugin activate wordpress-seo" );
+ds_cli_exec( "git clone https://github.com/awesomemotive/all-in-one-seo-pack.git wp-content/plugins/all-in-one-seo-pack/" );
+ds_cli_exec( "wp plugin activate all-in-one-seo-pack" );
 
 //** Download & Activate Plugin from a private Git repo
 //ds_cli_exec( "git clone https://{username}:{password}@github.com/ServerPress/sync.git wp-content/plugins/wpsitesync/" );
