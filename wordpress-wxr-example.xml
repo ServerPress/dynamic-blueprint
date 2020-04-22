@@ -45,7 +45,7 @@
                 <title>Hello world!</title>
                 <link>http://longbets.org/?p=1</link>
                 <pubDate>Tue, 25 Jan 2011 06:47:53 +0000</pubDate>
-                <dc:creator><![CDATA[admin]]></dc:creator>
+                <dc:creator><![CDATA[testadmin]]></dc:creator>
                 <category><![CDATA[Uncategorized]]></category>
                 <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
                 <guid isPermaLink="false">http://longbets.org/?p=1</guid>
@@ -64,20 +64,6 @@
                 <wp:post_type>post</wp:post_type>
                 <wp:post_password></wp:post_password>
                 <wp:is_sticky>0</wp:is_sticky>
-                <wp:comment>
-                    <wp:comment_id>1</wp:comment_id>
-                    <wp:comment_author><![CDATA[Mr WordPress]]></wp:comment_author>
-                    <wp:comment_author_email></wp:comment_author_email>
-                    <wp:comment_author_url>http://wordpress.org/</wp:comment_author_url>
-                    <wp:comment_author_IP></wp:comment_author_IP>
-                    <wp:comment_date>2011-01-25 06:47:53</wp:comment_date>
-                    <wp:comment_date_gmt>2011-01-25 06:47:53</wp:comment_date_gmt>
-                    <wp:comment_content><![CDATA[Hi, this is a comment.<br />To delete a comment, just log in and view the post&#039;s comments. There you will have the option to edit or delete them.]]></wp:comment_content>
-                    <wp:comment_approved>1</wp:comment_approved>
-                    <wp:comment_type></wp:comment_type>
-                    <wp:comment_parent>0</wp:comment_parent>
-                    <wp:comment_user_id>0</wp:comment_user_id>
-                </wp:comment>
             </item>
             
             
@@ -85,7 +71,7 @@
                 <title>Second Post, by me!</title>
                 <link>http://longbets.org/?p=4</link>
                 <pubDate>Tue, 25 Jan 2011 06:49:20 +0000</pubDate>
-                <dc:creator><![CDATA[admin]]></dc:creator>
+                <dc:creator><![CDATA[testadmin]]></dc:creator>
                 <category><![CDATA[Uncategorized]]></category>
                 <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
                 <guid isPermaLink="false">http://longbets.org/?p=4</guid>
@@ -120,48 +106,6 @@
                     <wp:meta_key>_wp_old_slug</wp:meta_key>
                     <wp:meta_value><![CDATA[]]></wp:meta_value>
                 </wp:postmeta>
-                <wp:comment>
-                    <wp:comment_id>2</wp:comment_id>
-                    <wp:comment_author><![CDATA[admin]]></wp:comment_author>
-                    <wp:comment_author_email>bkeating@gmail.com</wp:comment_author_email>
-                    <wp:comment_author_url></wp:comment_author_url>
-                    <wp:comment_author_IP>192.168.1.101</wp:comment_author_IP>
-                    <wp:comment_date>2011-01-25 06:52:17</wp:comment_date>
-                    <wp:comment_date_gmt>2011-01-25 06:52:17</wp:comment_date_gmt>
-                    <wp:comment_content><![CDATA[Sizzle ass. Aliquizzle daahng dawg massa a maurizzle. Check out this ante ipsizzle da bomb izzle faucibus shizznit luctizzle brizzle funky fresh posuere gangster Bizzle; Sheezy vestibulizzle. Pellentesque habitant morbi dizzle senectizzle et i saw beyonces tizzles and my pizzle went crizzle we gonna chung malesuada mammasay mammasa mamma oo sa izzle turpis egestas. Funky fresh tempizzle dizzle velit. Fo shizzle my nizzle ma nizzle tellivizzle. Mammasay mammasa mamma oo sa da bomb enizzle, fo shizzle my nizzle crazy, fo shizzle a, shit sizzle, arcu. Nulla elit. Donizzle yo mamma, est izzle brizzle dope, magna erizzle ultricizzle neque, nizzle dang tellivizzle you son of a bizzle my shizz nibh. Vivamizzle rizzle neque, ultrices ut, ornare gizzle, vulputate non, pimpin'. Praesent bling bling we gonna chung, fo sizzle break yo neck, yall, dizzle nizzle, dignissizzle malesuada, things. Bizzle egizzle yippiyo da bomb away ullamcorper we gonna chung. Donec rizzle. Maurizzle da bomb crackalackin, nizzle izzle, its fo rizzle sheezy, shiz izzle, felis. Etiam gravida.]]></wp:comment_content>
-                    <wp:comment_approved>1</wp:comment_approved>
-                    <wp:comment_type></wp:comment_type>
-                    <wp:comment_parent>0</wp:comment_parent>
-                    <wp:comment_user_id>1</wp:comment_user_id>
-                </wp:comment>
-                <wp:comment>
-                    <wp:comment_id>3</wp:comment_id>
-                    <wp:comment_author><![CDATA[admin]]></wp:comment_author>
-                    <wp:comment_author_email>bkeating@gmail.com</wp:comment_author_email>
-                    <wp:comment_author_url></wp:comment_author_url>
-                    <wp:comment_author_IP>192.168.1.101</wp:comment_author_IP>
-                    <wp:comment_date>2011-01-25 06:52:37</wp:comment_date>
-                    <wp:comment_date_gmt>2011-01-25 06:52:37</wp:comment_date_gmt>
-                    <wp:comment_content><![CDATA[Mammasay mammasa mamma oo sa dignissizzle sheezy quis cool fo shizzle mah nizzle fo rizzle, mah home g-dizzle molestie. Break it down bling bling mi, dapibus shiznit, lobortis ac, molestie izzle, fo shizzle. Fo shizzle blandizzle. Suspendisse consectetuer. Brizzle mah nizzle boom shackalack, break yo neck, yall sizzle, nizzle, ass at, dolor. Suspendisse mammasay mammasa mamma oo sa dolizzle. Maecenizzle vizzle tortizzle. Bling bling fo shizzle bling bling. Its fo rizzle shiz. Donizzle get down get down pot dope arcu. Ut a sizzle boofron sem fo shizzle eleifend. Fusce pulvinizzle, sure nizzle vestibulum fringilla, neque libero for sure erat, pot cool augue nunc shiz pede. Quisque vestibulizzle sodales that's the shizzle. Aliquam for sure volutpat. In boom shackalack, dui dang ultricizzle consequat, cool lacus gravida bow wow wow, at fo shizzle mah nizzle fo rizzle, mah home g-dizzle fo shizzle metus sizzle check it out.]]></wp:comment_content>
-                    <wp:comment_approved>1</wp:comment_approved>
-                    <wp:comment_type></wp:comment_type>
-                    <wp:comment_parent>0</wp:comment_parent>
-                    <wp:comment_user_id>1</wp:comment_user_id>
-                </wp:comment>
-                <wp:comment>
-                    <wp:comment_id>4</wp:comment_id>
-                    <wp:comment_author><![CDATA[admin]]></wp:comment_author>
-                    <wp:comment_author_email>bkeating@gmail.com</wp:comment_author_email>
-                    <wp:comment_author_url></wp:comment_author_url>
-                    <wp:comment_author_IP>192.168.1.101</wp:comment_author_IP>
-                    <wp:comment_date>2011-01-25 06:52:59</wp:comment_date>
-                    <wp:comment_date_gmt>2011-01-25 06:52:59</wp:comment_date_gmt>
-                    <wp:comment_content><![CDATA[Nulla eu ligula. Its fo rizzle shiz commodo tellizzle. Aenizzle viverra, pimpin' izzle mah nizzle shiz, libero urna for sure leo, shiznit bling bling nunc sapizzle crunk nunc. Its fo rizzle eu dolor. Vestibulum things we gonna chung. Ma nizzle stuff faucibizzle erizzle. The bizzle shizzlin dizzle fizzle, volutpizzle brizzle, volutpizzle we gonna chung, auctizzle eget, nunc. Shizzlin dizzle pharetra. Nunc nisi. Ma nizzle fo shizzle my nizzle amizzle sure nec ante blandit dignissizzle. Owned laoreet tellus sizzle fo shizzle enizzle. Aenean tempus we gonna chung felizzle.]]></wp:comment_content>
-                    <wp:comment_approved>1</wp:comment_approved>
-                    <wp:comment_type></wp:comment_type>
-                    <wp:comment_parent>0</wp:comment_parent>
-                    <wp:comment_user_id>1</wp:comment_user_id>
-                </wp:comment>
             </item>
     
     
@@ -169,7 +113,7 @@
                 <title>Third Post</title>
                 <link>http://longbets.org/?p=6</link>
                 <pubDate>Tue, 25 Jan 2011 06:49:59 +0000</pubDate>
-                <dc:creator><![CDATA[admin]]></dc:creator>
+                <dc:creator><![CDATA[testadmin]]></dc:creator>
                 <category><![CDATA[Uncategorized]]></category>
                 <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
                 <guid isPermaLink="false">http://longbets.org/?p=6</guid>
@@ -204,34 +148,6 @@
                     <wp:meta_key>_wp_old_slug</wp:meta_key>
                     <wp:meta_value><![CDATA[]]></wp:meta_value>
                 </wp:postmeta>
-                <wp:comment>
-                    <wp:comment_id>5</wp:comment_id>
-                    <wp:comment_author><![CDATA[admin]]></wp:comment_author>
-                    <wp:comment_author_email>bkeating@gmail.com</wp:comment_author_email>
-                    <wp:comment_author_url></wp:comment_author_url>
-                    <wp:comment_author_IP>192.168.1.101</wp:comment_author_IP>
-                    <wp:comment_date>2011-01-25 06:53:23</wp:comment_date>
-                    <wp:comment_date_gmt>2011-01-25 06:53:23</wp:comment_date_gmt>
-                    <wp:comment_content><![CDATA[Nulla eu ligula. Its fo rizzle shiz commodo tellizzle. Aenizzle viverra, pimpin' izzle mah nizzle shiz, libero urna for sure leo, shiznit bling bling nunc sapizzle crunk nunc. Its fo rizzle eu dolor. Vestibulum things we gonna chung. Ma nizzle stuff faucibizzle erizzle. The bizzle shizzlin dizzle fizzle, volutpizzle brizzle, volutpizzle we gonna chung, auctizzle eget, nunc. Shizzlin dizzle pharetra. Nunc nisi. Ma nizzle fo shizzle my nizzle amizzle sure nec ante blandit dignissizzle. Owned laoreet tellus sizzle fo shizzle enizzle. Aenean tempus we gonna chung felizzle.]]></wp:comment_content>
-                    <wp:comment_approved>1</wp:comment_approved>
-                    <wp:comment_type></wp:comment_type>
-                    <wp:comment_parent>0</wp:comment_parent>
-                    <wp:comment_user_id>1</wp:comment_user_id>
-                </wp:comment>
-                <wp:comment>
-                    <wp:comment_id>6</wp:comment_id>
-                    <wp:comment_author><![CDATA[admin]]></wp:comment_author>
-                    <wp:comment_author_email>bkeating@gmail.com</wp:comment_author_email>
-                    <wp:comment_author_url></wp:comment_author_url>
-                    <wp:comment_author_IP>192.168.1.101</wp:comment_author_IP>
-                    <wp:comment_date>2011-01-25 06:53:29</wp:comment_date>
-                    <wp:comment_date_gmt>2011-01-25 06:53:29</wp:comment_date_gmt>
-                    <wp:comment_content><![CDATA[Nah, not really.]]></wp:comment_content>
-                    <wp:comment_approved>1</wp:comment_approved>
-                    <wp:comment_type></wp:comment_type>
-                    <wp:comment_parent>5</wp:comment_parent>
-                    <wp:comment_user_id>1</wp:comment_user_id>
-                </wp:comment>
             </item>
     
     
@@ -239,7 +155,7 @@
                 <title>Fourth Post</title>
                 <link>http://longbets.org/?p=8</link>
                 <pubDate>Tue, 25 Jan 2011 06:50:09 +0000</pubDate>
-                <dc:creator><![CDATA[admin]]></dc:creator>
+                <dc:creator><![CDATA[testadmin]]></dc:creator>
                 <category><![CDATA[Uncategorized]]></category>
                 <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
                 <guid isPermaLink="false">http://longbets.org/?p=8</guid>
@@ -281,7 +197,7 @@
                 <title>Fifth Post</title>
                 <link>http://longbets.org/?p=10</link>
                 <pubDate>Tue, 25 Jan 2011 06:50:19 +0000</pubDate>
-                <dc:creator><![CDATA[admin]]></dc:creator>
+                <dc:creator><![CDATA[testadmin]]></dc:creator>
                 <category><![CDATA[Uncategorized]]></category>
                 <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
                 <guid isPermaLink="false">http://longbets.org/?p=10</guid>
@@ -316,36 +232,6 @@
                     <wp:meta_key>_wp_old_slug</wp:meta_key>
                     <wp:meta_value><![CDATA[]]></wp:meta_value>
                 </wp:postmeta>
-                <wp:comment>
-                    <wp:comment_id>7</wp:comment_id>
-                    <wp:comment_author><![CDATA[admin]]></wp:comment_author>
-                    <wp:comment_author_email>bkeating@gmail.com</wp:comment_author_email>
-                    <wp:comment_author_url></wp:comment_author_url>
-                    <wp:comment_author_IP>192.168.1.101</wp:comment_author_IP>
-                    <wp:comment_date>2011-01-25 06:53:52</wp:comment_date>
-                    <wp:comment_date_gmt>2011-01-25 06:53:52</wp:comment_date_gmt>
-                    <wp:comment_content><![CDATA[Nulla eu ligula. Its fo rizzle shiz commodo tellizzle. Aenizzle viverra, pimpin' izzle mah nizzle shiz, libero urna for sure leo, shiznit bling bling nunc sapizzle crunk nunc. Its fo rizzle eu dolor. Vestibulum things we gonna chung. Ma nizzle stuff faucibizzle erizzle. The bizzle shizzlin dizzle fizzle, volutpizzle brizzle, volutpizzle we gonna chung, auctizzle eget, nunc. Shizzlin dizzle pharetra. Nunc nisi. Ma nizzle fo shizzle my nizzle amizzle sure nec ante blandit dignissizzle. Owned laoreet tellus sizzle fo shizzle enizzle. Aenean tempus we gonna chung felizzle.Nulla eu ligula. Its fo rizzle shiz commodo tellizzle. Aenizzle viverra, pimpin' izzle mah nizzle shiz, libero urna for sure leo, shiznit bling bling nunc sapizzle crunk nunc. Its fo rizzle eu dolor. Vestibulum things we gonna chung. Ma nizzle stuff faucibizzle erizzle. The bizzle shizzlin dizzle fizzle, volutpizzle brizzle, volutpizzle we gonna chung, auctizzle eget, nunc. Shizzlin dizzle pharetra. Nunc nisi. Ma nizzle fo shizzle my nizzle amizzle sure nec ante blandit dignissizzle. Owned laoreet tellus sizzle fo shizzle enizzle. Aenean tempus we gonna chung felizzle.]]></wp:comment_content>
-                    <wp:comment_approved>1</wp:comment_approved>
-                    <wp:comment_type></wp:comment_type>
-                    <wp:comment_parent>0</wp:comment_parent>
-                    <wp:comment_user_id>1</wp:comment_user_id>
-                </wp:comment>
-                <wp:comment>
-                    <wp:comment_id>8</wp:comment_id>
-                    <wp:comment_author><![CDATA[admin]]></wp:comment_author>
-                    <wp:comment_author_email>bkeating@gmail.com</wp:comment_author_email>
-                    <wp:comment_author_url></wp:comment_author_url>
-                    <wp:comment_author_IP>192.168.1.101</wp:comment_author_IP>
-                    <wp:comment_date>2011-01-25 06:53:58</wp:comment_date>
-                    <wp:comment_date_gmt>2011-01-25 06:53:58</wp:comment_date_gmt>
-                    <wp:comment_content><![CDATA[Nulla eu ligula. Its fo rizzle shiz commodo tellizzle. Aenizzle viverra, pimpin' izzle mah nizzle shiz, libero urna for sure leo, shiznit bling bling nunc sapizzle crunk nunc. Its fo rizzle eu dolor. Vestibulum things we gonna chung. Ma nizzle stuff faucibizzle erizzle. The bizzle shizzlin dizzle fizzle, volutpizzle brizzle, volutpizzle we gonna chung, auctizzle eget, nunc. Shizzlin dizzle pharetra. Nunc nisi. Ma nizzle fo shizzle my nizzle amizzle sure nec ante blandit dignissizzle. Owned laoreet tellus sizzle fo shizzle enizzle. Aenean tempus we gonna chung felizzle.
-
-Nulla eu ligula. Its fo rizzle shiz commodo tellizzle. Aenizzle viverra, pimpin' izzle mah nizzle shiz, libero urna for sure leo, shiznit bling bling nunc sapizzle crunk nunc. Its fo rizzle eu dolor. Vestibulum things we gonna chung. Ma nizzle stuff faucibizzle erizzle. The bizzle shizzlin dizzle fizzle, volutpizzle brizzle, volutpizzle we gonna chung, auctizzle eget, nunc. Shizzlin dizzle pharetra. Nunc nisi. Ma nizzle fo shizzle my nizzle amizzle sure nec ante blandit dignissizzle. Owned laoreet tellus sizzle fo shizzle enizzle. Aenean tempus we gonna chung felizzle.]]></wp:comment_content>
-                    <wp:comment_approved>1</wp:comment_approved>
-                    <wp:comment_type></wp:comment_type>
-                    <wp:comment_parent>0</wp:comment_parent>
-                    <wp:comment_user_id>1</wp:comment_user_id>
-                </wp:comment>
             </item>
 
 
